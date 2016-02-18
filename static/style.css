@@ -1,0 +1,67 @@
+.intro {
+    /*margin: 3.1875em;*/
+    padding: 15px;
+    background-color: #E05D1B;
+    border-radius:25px;
+    color: white;
+    font-size: 1.5em;
+    float: left;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    line-height: 550px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px;
+    border-width: 5px;
+    border-color: grey;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+.box1 {
+    text-align: bottom;
+    background: url('img/ruby.png') no-repeat;
+    font-size: 2em;
+}
+
+.box2 {
+    text-align: bottom;
+    background: url('img/css.png') no-repeat;
+    background-position: top;
+    font-size: 2em;
+}
+
+.box:hover a {
+    background-color: #AAA;
+    color: red;
+    border-radius: 50%;
+    text-decoration:underline;
+}
+
+.box:hover {
+    border-color: red;
+}
+
+.box a:link {
+    text-decoration:underline;
+}
+
+.box a:hover {
+    text-decoration:underline;
+    background-color: #fff;
+}
+
+img {
+    float: right;
+    border-radius: 40%;
+
+}
+
