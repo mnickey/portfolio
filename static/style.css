@@ -63,3 +63,8 @@ img {
     float: right;
     border-radius: 40%;
 }
+
+a.collapse {
+    text-decoration: none;
+    color: #000000;
+}
