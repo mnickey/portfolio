@@ -1,6 +1,9 @@
+.nav {
+    padding-bottom: 1em;
+}
 .intro {
     /*margin: 3.1875em;*/
-    padding: 15px;
+    /*padding: 1.5em;*/
     background-color: #E05D1B;
     border-radius:25px;
     color: white;
@@ -67,7 +70,7 @@ img {
 a#collapse {
     clear: both;
     text-decoration: none;
-    color: #ff5c18;
+    color: #E05D1B;
 }
 
 div.intro {
@@ -76,5 +79,9 @@ div.intro {
 
 div.thumbnail {
     margin-top: 1em;
-    background-image: url("http://lorempixel.com/g/400/200/") ;
+    /*background-image: url("http://lorempixel.com/g/400/200/") ;*/
+}
+
+div.caption h3,p {
+    color: #E05D1B;
 }
