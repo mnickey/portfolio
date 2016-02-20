@@ -69,3 +69,11 @@ a#collapse {
     text-decoration: none;
     color: #ff5c18;
 }
+
+div.intro {
+    padding: 1em;
+}
+
+div.thumbnail {
+    margin-top: 1em;
+}
