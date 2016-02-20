@@ -64,7 +64,8 @@ img {
     border-radius: 40%;
 }
 
-a.collapse {
+a#collapse {
+    clear: both;
     text-decoration: none;
-    color: #000000;
+    color: #ff5c18;
 }
