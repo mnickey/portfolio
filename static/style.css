@@ -1,3 +1,5 @@
+
+
 .nav {
     /*padding-bottom: 1em;*/
 }
@@ -100,6 +102,12 @@ div.thumbnail {
     /*background-image: url("http://lorempixel.com/g/400/200/") ;*/
 }
 
-div.caption h3,p {
+div.caption p {
     color: #E05D1B;
+}
+
+div.intro h3 {
+    text-align: center;
+    font-family: Arial, "Times New Roman";
+    text-decoration: double;
 }
