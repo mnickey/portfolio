@@ -1,9 +1,27 @@
 .nav {
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
 }
+
+ul.nav.nav-pills {
+    border-radius: 0;
+    background-color: #E05D1B;
+    color: white;
+}
+
+ul.nav.nav-pills li a {
+    border-radius: 0;
+    color: white;
+}
+
+ul.nav.nav-pills li a:hover {
+    border-radius: 0;
+    color: black;
+    margin: 0;
+}
+
 .intro {
-    /*margin: 3.1875em;*/
-    /*padding: 1.5em;*/
+    margin-top: 1.1875em;
+    padding-top: 1.5em;
     background-color: #E05D1B;
     border-radius:25px;
     color: white;
