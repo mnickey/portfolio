@@ -1,25 +1,44 @@
 <html>
 <head>
     <title>Portfolio of Michael Nickey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="static/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-          crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<ul class="nav nav-pills">
-    <li class="active">
-        <a href="#">About Me</a>
-    </li>
-    <!--<li><a href="resume.html">Resume</a></li>-->
-    <li><a href="resume.html">Resume</a></li>
-    <li class="pull-right">
-        <a href="mailto:mnickey@gmail.com?subject=Contacting you from your portfolio site!">Contact Me</a>
-    </li>
-    <!--TODO Add linkedin link-->
-    <!--TODO Add link to download resume -->
-</ul>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">About Me</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="collapse" href="https://www.linkedin.com/in/mnickey"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mnickey"><i class="fa fa-github-square fa-2x"></i></a></li>
+                <li><a href="mailto:mnickey@gmail.com?subject=Contacting you from your portfolio site!">Contact Me</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container">
     <div class="row">
@@ -27,7 +46,7 @@
             <div class="intro">
                 <p><h3>Portfolio of Michael Nickey</h3></p>
                 <img src="static/my_pic.JPG" height="175" width="175">
-                I'm a budding web developer with a background in Python, Flask, CSS & Javascript. I'm located in the SF Bay Area
+                I'm an aspiring web developer with a background in Python, Flask, CSS & Javascript. I'm located in the SF Bay Area
                 and love the development process. The ability to create working sites starting from a simple idea is amazing.
                 In here you'll find various works I've done.
                 These will be tagged with the technologies used to create them and a link to the few select examples.
@@ -37,6 +56,18 @@
 
     <!--Adding thumbnails - First Row-->
     <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+                <!--<img src="http://placekitten.com/g/200/300" alt="...">-->
+                <div class="caption">
+                    <h3>Scavenger Hunt</h3>
+                    <p>How I used Python, Flask & Jinja2 templating to turn a girlfriend into a fiance</p>
+                    <p><a href="mailto:mnickey@gmail.com?subject=Access Request to the marryme Github repo" class="btn btn-primary" role="button">Request Access</a>
+                        <a href="http://scavengerhunt.mnickey.com/" class="btn btn-default" role="button">See it in Action</a></p>
+                </div>
+            </div>
+        </div>
+
         <div class="col-sm-12 col-md-4 ">
             <div class="thumbnail">
                 <!--<img src="http://placekitten.com/200/200?image=1" alt="movie site">-->
@@ -57,18 +88,6 @@
                     <p>A Python Flask site that allows for creating and updating tasks.</p>
                     <p><a href="https://github.com/mnickey/Flask_Taskr" class="btn btn-primary" role="button">GitHub Repo</a>
                         <a href="https://guarded-shore-8629.herokuapp.com/" class="btn btn-default" role="button">See it in Action</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-                <!--<img src="http://placekitten.com/g/200/300" alt="...">-->
-                <div class="caption">
-                    <h3>Scavenger Hunt</h3>
-                    <p>How I used Python, Flask & Jinja2 templating to turn a girlfriend into a fiance</p>
-                    <p><a href="mailto:mnickey@gmail.com?subject=Access Request to the marryme Github repo" class="btn btn-primary" role="button">Request Access</a>
-                        <a href="http://scavengerhunt.mnickey.com/" class="btn btn-default" role="button">See it in Action</a></p>
                 </div>
             </div>
         </div>
@@ -109,7 +128,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </div>
 

@@ -1,113 +1,62 @@
-
-
 .nav {
-    /*padding-bottom: 1em;*/
-}
+  /*padding-bottom: 1em;*/ }
 
 ul.nav.nav-pills {
-    border-radius: 0;
-    background-color: #E05D1B;
-    color: white;
-}
+  border-radius: 0;
+  background-color: #E05D1B;
+  color: white; }
 
 ul.nav.nav-pills li a {
-    border-radius: 0;
-    color: white;
-}
+  border-radius: 0;
+  color: white; }
 
 ul.nav.nav-pills li a:hover {
-    border-radius: 0;
-    color: black;
-    margin: 0;
-}
+  border-radius: 0;
+  color: black;
+  margin: 0; }
 
 .intro {
-    margin-top: 1.1875em;
-    padding-top: 1.5em;
-    background-color: #E05D1B;
-    border-radius:25px;
-    color: white;
-    font-size: 1.5em;
-    float: left;
-    text-align: left;
-}
+  margin-top: 1.1875em;
+  padding-top: 1.5em;
+  background-color: #E05D1B;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.5em;
+  float: left;
+  text-align: left; }
 
 .container {
-    text-align: center;
-}
-
-.box {
-    width: 200px;
-    height: 300px;
-    line-height: 550px;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 10px;
-    border-width: 5px;
-    border-color: grey;
-    border-style: solid;
-    vertical-align: middle;
-}
-
-.box1 {
-    text-align: bottom;
-    background: url('img/ruby.png') no-repeat;
-    font-size: 2em;
-}
-
-.box2 {
-    text-align: bottom;
-    background: url('img/css.png') no-repeat;
-    background-position: top;
-    font-size: 2em;
-}
-
-.box:hover a {
-    background-color: #AAA;
-    color: red;
-    border-radius: 50%;
-    text-decoration:underline;
-}
-
-.box:hover {
-    border-color: red;
-}
-
-.box a:link {
-    text-decoration:underline;
-}
-
-.box a:hover {
-    text-decoration:underline;
-    background-color: #fff;
-}
+  text-align: center; }
 
 img {
-    float: right;
-    border-radius: 40%;
-}
+  float: right;
+  border-radius: 40%; }
 
 a#collapse {
-    clear: both;
-    text-decoration: none;
-    color: #E05D1B;
-}
+  clear: both;
+  text-decoration: none;
+  color: #E05D1B; }
 
 div.intro {
-    padding: 1em;
-}
+  padding: 1em; }
 
 div.thumbnail {
-    margin-top: 1em;
-    /*background-image: url("http://lorempixel.com/g/400/200/") ;*/
-}
+  margin-top: 1em;
+  /*background-image: url("http://lorempixel.com/g/400/200/") ;*/ }
 
 div.caption p {
-    color: #E05D1B;
-}
+  color: #E05D1B; }
 
 div.intro h3 {
-    text-align: center;
-    font-family: Arial, "Times New Roman";
-    text-decoration: double;
-}
+  text-align: center;
+  font-family: Arial, "Times New Roman";
+  text-decoration: double; }
+
+.fa-linkedin-square .fa-2x a:hover {
+  color: #E05D1B; }
+
+.fa-github-square .fa-2x a:hover {
+  color: #E05D1B; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #E05D1B; }
