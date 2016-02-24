@@ -26,7 +26,8 @@ ul.nav.nav-pills li a:hover {
   text-align: left; }
 
 .container {
-  text-align: center; }
+  text-align: center;
+  padding-top: 5em; }
 
 img {
   float: right;
@@ -60,3 +61,9 @@ div.intro h3 {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #E05D1B; }
+
+input#message {
+  color: green; }
+
+div.intro button {
+  color: green; }
