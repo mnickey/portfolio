@@ -33,6 +33,9 @@ img {
   float: right;
   border-radius: 40%; }
 
+div.thumbnail {
+  border-radius: 0; }
+
 a#collapse {
   clear: both;
   text-decoration: none;
@@ -42,15 +45,19 @@ div.intro {
   padding: 1em; }
 
 div.thumbnail {
-  margin-top: 1em;
-  /*background-image: url("http://lorempixel.com/g/400/200/") ;*/ }
+  margin-top: 1em; }
+
+div.thumbnail > img {
+  border-radius: 0;
+  height: 4em;
+  width: 6em; }
 
 div.caption p {
   color: #E05D1B; }
 
 div.intro h3 {
   text-align: center;
-  font-family: Arial, "Times New Roman";
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: double; }
 
 .fa-linkedin-square .fa-2x a:hover {
@@ -63,7 +70,4 @@ div.intro h3 {
   color: #E05D1B; }
 
 input#message {
-  color: green; }
-
-div.intro button {
-  color: green; }
+  color: #000000; }
