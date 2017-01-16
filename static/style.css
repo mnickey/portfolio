@@ -4,7 +4,7 @@
 
 ul.nav.nav-pills {
     border-radius: 0;
-    background-color: #E05D1B;
+    /*background-color: #E05D1B;*/
     color: white;
 }
 
@@ -22,7 +22,7 @@ ul.nav.nav-pills li a:hover {
 .intro {
     margin-top: 1.1875em;
     padding-top: 1.5em;
-    background-color: #E05D1B;
+    /*background-color: #E05D1B;*/
     border-radius: 25px;
     color: white;
     font-size: 1.5em;
@@ -47,6 +47,7 @@ div.thumbnail {
 a#collapse {
     clear: both;
     text-decoration: double;
+    /*color: #E05D1B;*/
 }
 
 div.intro {
@@ -64,7 +65,7 @@ div.thumbnail > img {
 }
 
 div.caption p {
-    color: #E05D1B;
+    /*color: #E05D1B;*/
 }
 
 div.intro h3 {
@@ -73,15 +74,15 @@ div.intro h3 {
     text-decoration: double;
 }
 
-.fa-linkedin-square .fa-2x a:hover {
-    color: #E05D1B;
+.fa-linkedin-square .fa-2x  {
+    /*color: #E05D1B;*/
 }
 
-.fa-github-square .fa-2x a:hover {
-    color: #E05D1B;
+.fa-github-square .fa-2x  {
+    /*color: #E05D1B;*/
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li >  {
     color: #E05D1B;
 }
 
